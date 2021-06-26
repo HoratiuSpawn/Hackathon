@@ -12,6 +12,10 @@ namespace Hackathon.Services
         private readonly IPinTypesRepository _pinTypesRepository;
         private readonly IMapper _mapper;
 
+        public PinTypesService()
+        {
+        }
+
         public PinTypesService(IPinTypesRepository pinTypesRepository, IMapper mapper)
         {
             _pinTypesRepository = pinTypesRepository;

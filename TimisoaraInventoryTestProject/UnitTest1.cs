@@ -30,7 +30,7 @@ namespace TimisoaraInventoryTestProject
             Assert.IsInstanceOfType(result, typeof (List<PinTypesDto>));
             var firstElement = result.FirstOrDefault();
             Assert.IsNotNull(firstElement);
-            Assert.AreEqual(2, firstElement.Id);
+            Assert.AreEqual(1, firstElement.Id);
         }
     }
     public class PinTypeRepositoryMockup : IPinTypesRepository
